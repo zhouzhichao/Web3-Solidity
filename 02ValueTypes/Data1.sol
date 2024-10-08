@@ -14,5 +14,5 @@ contract valueTypes {
     int public maxInt =  type(int).max;
     address public addr = 0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B;
     bytes32 data = "Hello, World!";  // 固定长度的字节数据
-
+    uint256 balance = addr.balance; // 查询地址余额
 }

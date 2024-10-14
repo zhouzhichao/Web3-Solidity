@@ -25,6 +25,7 @@ contract Counter {
         count -= 1;
     }
 
+
      // 定义一个常量
     uint256 public constant MY_CONSTANT = 100;
 
